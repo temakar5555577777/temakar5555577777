@@ -1,0 +1,44 @@
+# Project TODO
+
+- [x] Configure theme colors (purple/futuristic palette)
+- [x] Generate app logo and configure branding
+- [x] Install expo-speech-recognition, expo-speech, expo-sms, expo-contacts, expo-keep-awake
+- [x] Create voice recognition engine (start/stop listening, transcript handling)
+- [x] Create command parser (parse Russian and English voice commands)
+- [x] Create TTS response system (text-to-speech feedback)
+- [x] Implement "Open App" command (YouTube, Telegram, WhatsApp, etc.)
+- [x] Implement "Send SMS" command (parse recipient + message, lookup contacts)
+- [x] Implement "Make Call" command (dial number or contact name)
+- [x] Implement "Web Search" command (open browser with search query)
+- [x] Implement "Dial Number" command (extract digits, open dialer)
+- [x] Build Home Screen with mic button, waveform, transcript, response
+- [x] Build Command History screen with FlatList
+- [x] Build Settings screen (language, speech rate, permissions)
+- [x] Add tab navigation with proper icons
+- [x] Add keep-screen-awake functionality
+- [x] Add continuous listening mode
+- [x] Add haptic feedback on interactions
+- [x] Add command history persistence with AsyncStorage
+
+- [x] Redesign theme to JARVIS style (dark background, cyan/blue neon, futuristic HUD)
+- [x] Rebuild Home Screen with JARVIS-style animated HUD elements
+- [x] Add circular arc/ring animations around mic button
+- [x] Rebuild History screen with JARVIS-style cards
+- [x] Rebuild Settings screen with JARVIS-style UI
+- [x] Add background listening mode (app waits for commands in background)
+- [x] Add wake word detection or always-on listening
+- [x] Fix app launch issue on Vivo X300 Pro (added proper permissions and minSdkVersion)
+- [x] Update app icon to match JARVIS theme
+
+- [x] Add wake word "Jarvis" detection as trigger for command listening
+- [x] Add persistent notification for background listening service
+- [x] Add volume control commands (up, down, mute, unmute)
+- [x] Add flashlight control commands (on, off)
+- [x] Add Wi-Fi control commands (enable, disable)
+- [x] Add Bluetooth control commands (enable, disable)
+- [x] Add brightness control commands (up, down, max, min)
+- [x] Add camera launch command
+- [x] Add screenshot command
+- [x] Add timer/alarm commands
+- [x] Add music playback control (play, pause, next, previous)
+- [x] Update Home Screen to show wake word status indicator
